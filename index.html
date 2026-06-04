@@ -1,0 +1,630 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- SEO BÁSICO OTIMIZADO PARA ALTO PADRÃO -->
+    <title>Eletricista em Natal | Tirol, Petrópolis e Capim Macio | VR Soluções</title>
+    <meta name="description" content="Eletricista de alto padrão em Natal/RN. Atendimento especializado em Tirol, Petrópolis, Capim Macio e região. Instalações, Wallbox, padrão Cosern e urgências.">
+    <meta name="keywords" content="eletricista em natal, eletricista tirol natal, eletricista petropolis natal, eletricista capim macio, padrão cosern natal, wallbox natal, manutenção elétrica, vr soluçoes eletricas">
+    <link rel="canonical" href="https://vrsolucoeseletricas.site">
+    
+    <!-- FAVICON -->
+    <link rel="icon" type="image/png" href="https://ibb.co/hFYdDNRh">
+
+    <!-- SEO OPEN GRAPH -->
+    <meta property="og:locale" content="pt_BR">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Eletricista em Natal | Tirol, Petrópolis e Capim Macio">
+    <meta property="og:description" content="Serviços elétricos profissionais e instalação de Wallbox em Natal e região metropolitana. Alto padrão de acabamento e segurança.">
+    <meta property="og:url" content="https://vrsolucoeseletricas.site">
+    <meta property="og:site_name" content="VR Soluções Elétricas">
+
+    <!-- ESTILOS / CORES -->
+    <style>
+        :root {
+            --bg-main: #000000;
+            --bg-cards: #111111;
+            --bg-darker: #0a0a0a;
+            --primary-color: #F1A503; 
+            --primary-hover: #D18F03; 
+            --text-color: #FFFFFF;
+            --text-muted: #BBBBBB;
+            --danger-color: #d32f2f;
+            --whatsapp-color: #25d366;
+        }
+
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;800&display=swap');
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Montserrat', sans-serif;
+            scroll-behavior: smooth;
+        }
+
+        body {
+            background-color: var(--bg-main);
+            color: var(--text-color);
+            line-height: 1.6;
+        }
+
+        /* --- CABEÇALHO --- */
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 15px 5%;
+            background-color: rgba(0, 0, 0, 0.95);
+            position: fixed;
+            width: 100%;
+            top: 0;
+            z-index: 1000;
+            border-bottom: 2px solid var(--primary-color);
+        }
+
+        .logo img {
+            height: 60px;
+        }
+
+        nav ul {
+            display: flex;
+            list-style: none;
+            gap: 30px;
+        }
+
+        nav a {
+            color: var(--text-color);
+            text-decoration: none;
+            font-weight: 600;
+            transition: color 0.3s;
+        }
+
+        nav a:hover {
+            color: var(--primary-color);
+        }
+
+        .btn-header {
+            background-color: var(--primary-color);
+            color: #000000;
+            padding: 12px 25px;
+            border-radius: 5px;
+            font-weight: 800;
+            text-transform: uppercase;
+            text-decoration: none;
+            transition: background-color 0.3s;
+            display: inline-block;
+            text-align: center;
+        }
+
+        .btn-header:hover {
+            background-color: var(--primary-hover);
+        }
+
+        /* --- BOTOES HERO --- */
+        .hero-botoes {
+            display: flex;
+            gap: 15px;
+            flex-wrap: wrap;
+        }
+
+        .btn-outline {
+            background-color: transparent;
+            color: var(--primary-color);
+            border: 2px solid var(--primary-color);
+            padding: 10px 25px;
+            border-radius: 5px;
+            font-weight: 800;
+            text-transform: uppercase;
+            text-decoration: none;
+            transition: all 0.3s;
+            display: inline-block;
+            text-align: center;
+        }
+
+        .btn-outline:hover {
+            background-color: var(--primary-color);
+            color: #000;
+        }
+
+        /* --- HERO SECTION --- */
+        .hero {
+            padding: 180px 5% 100px 5%;
+            min-height: 85vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: flex-start;
+            background: linear-gradient(rgba(0, 0, 0, 0.88), rgba(0, 0, 0, 0.95)), url('https://images.unsplash.com/photo-1621905252507-b35492cc74b4?q=80&w=2069') center/cover;
+        }
+
+        .badge-urgencia {
+            background-color: var(--danger-color);
+            color: #fff;
+            padding: 5px 15px;
+            border-radius: 20px;
+            font-weight: 600;
+            font-size: 0.9rem;
+            margin-bottom: 20px;
+            display: inline-block;
+        }
+
+        .hero h1 {
+            font-size: 3.2rem;
+            font-weight: 800;
+            max-width: 800px;
+            line-height: 1.2;
+            margin-bottom: 20px;
+        }
+
+        .hero h1 span {
+            color: var(--primary-color);
+        }
+
+        .hero p {
+            font-size: 1.2rem;
+            color: var(--text-muted);
+            max-width: 650px;
+            margin-bottom: 35px;
+        }
+
+        /* --- SERVIÇOS --- */
+        .servicos {
+            padding: 80px 5%;
+            background-color: var(--bg-main);
+        }
+
+        .titulo-secao {
+            font-size: 2.3rem;
+            text-align: center;
+            margin-bottom: 50px;
+            color: var(--text-color);
+            line-height: 1.3;
+        }
+
+        .titulo-secao span {
+            color: var(--primary-color);
+        }
+
+        .grid-servicos {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 25px;
+        }
+
+        .card-servico {
+            background-color: var(--bg-cards);
+            padding: 35px 25px;
+            border-radius: 8px;
+            transition: transform 0.3s, box-shadow 0.3s;
+            border-bottom: 4px solid var(--primary-color);
+        }
+
+        .card-servico:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 20px rgba(241, 165, 3, 0.15);
+        }
+
+        .card-servico h3 {
+            margin-bottom: 15px;
+            font-size: 1.4rem;
+            color: var(--primary-color);
+        }
+
+        .card-servico p {
+            color: var(--text-muted);
+            font-size: 0.95rem;
+        }
+
+        /* --- BANNER DE URGÊNCIA --- */
+        .urgencia-banner {
+            background: linear-gradient(135deg, var(--primary-color), var(--primary-hover));
+            color: #000;
+            padding: 60px 5%;
+            text-align: center;
+        }
+
+        .urgencia-banner h2 {
+            font-size: 2.2rem;
+            font-weight: 800;
+            margin-bottom: 15px;
+        }
+
+        .urgencia-banner p {
+            font-size: 1.1rem;
+            font-weight: 600;
+            margin-bottom: 30px;
+            max-width: 700px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .urgencia-banner .btn-dark {
+            background-color: #000;
+            color: var(--primary-color);
+            padding: 15px 35px;
+            border-radius: 5px;
+            font-weight: 800;
+            text-transform: uppercase;
+            text-decoration: none;
+            transition: background 0.3s;
+            display: inline-block;
+        }
+
+        .urgencia-banner .btn-dark:hover {
+            background-color: #222;
+        }
+
+        /* --- SEÇÃO WALLBOX --- */
+        .wallbox-section {
+            padding: 80px 5%;
+            background-color: var(--bg-cards);
+            display: flex;
+            align-items: center;
+            gap: 50px;
+            border-top: 1px solid #222;
+            border-bottom: 1px solid #222;
+        }
+
+        .wallbox-texto {
+            flex: 1;
+        }
+
+        .wallbox-texto p {
+            font-size: 1.1rem;
+            color: var(--text-muted);
+        }
+
+        .wallbox-imagem {
+            flex: 1;
+            border-radius: 10px;
+            overflow: hidden;
+            border: 3px solid var(--primary-color);
+            box-shadow: 0 10px 30px rgba(241, 165, 3, 0.15);
+        }
+
+        .wallbox-imagem img {
+            width: 100%;
+            height: auto;
+            display: block;
+            transition: transform 0.5s;
+        }
+
+        .wallbox-imagem:hover img {
+            transform: scale(1.05);
+        }
+
+        .lista-wallbox {
+            list-style: none;
+            margin: 30px 0;
+        }
+
+        .lista-wallbox li {
+            margin-bottom: 20px;
+            padding-left: 40px;
+            position: relative;
+            font-size: 1.05rem;
+            color: var(--text-muted);
+        }
+
+        .lista-wallbox li strong {
+            color: var(--text-color);
+        }
+
+        .lista-wallbox li::before {
+            content: '✓';
+            position: absolute;
+            left: 0;
+            top: 2px;
+            background-color: var(--primary-color);
+            color: #000;
+            width: 25px;
+            height: 25px;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-weight: bold;
+            font-size: 1rem;
+        }
+
+        /* --- DIFERENCIAIS --- */
+        .diferenciais {
+            padding: 80px 5%;
+            background-color: var(--bg-darker);
+        }
+
+        .grid-diferenciais {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 30px;
+            text-align: center;
+        }
+
+        .diferencial-item h4 {
+            color: var(--primary-color);
+            font-size: 1.2rem;
+            margin-bottom: 10px;
+            font-weight: 800;
+        }
+
+        .diferencial-item p {
+            color: var(--text-muted);
+            font-size: 0.9rem;
+        }
+
+        /* --- MAPA E LOCALIZAÇÃO --- */
+        .localizacao {
+            padding: 80px 5%;
+            background-color: var(--bg-main);
+            text-align: center;
+        }
+
+        .mapa-container {
+            width: 100%;
+            max-width: 1000px;
+            margin: 0 auto;
+            border-radius: 10px;
+            overflow: hidden;
+            border: 2px solid #222;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.5);
+            transition: border-color 0.3s;
+        }
+
+        .mapa-container:hover {
+            border-color: var(--primary-color);
+        }
+
+        .mapa-container iframe {
+            display: block;
+            width: 100%;
+        }
+
+        /* --- RODAPÉ --- */
+        footer {
+            background-color: #050505;
+            padding: 50px 5%;
+            text-align: center;
+            border-top: 1px solid #222;
+            font-size: 0.95rem;
+            color: var(--text-muted);
+        }
+
+        footer p {
+            margin-bottom: 15px;
+        }
+
+        footer a {
+            color: var(--primary-color);
+            text-decoration: none;
+            font-weight: 600;
+            transition: color 0.3s;
+        }
+
+        footer a:hover {
+            color: var(--primary-hover);
+        }
+
+        .footer-logo {
+            height: 60px;
+            margin-bottom: 20px;
+        }
+
+        /* --- BOTÃO FLUTUANTE DO WHATSAPP --- */
+        .whatsapp-float {
+            position: fixed;
+            width: 60px;
+            height: 60px;
+            bottom: 30px;
+            right: 30px;
+            background-color: var(--whatsapp-color);
+            color: #FFF;
+            border-radius: 50px;
+            text-align: center;
+            box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
+            z-index: 1000;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-decoration: none;
+            transition: background-color 0.3s;
+            animation: pulse-wa 2s infinite;
+        }
+
+        .whatsapp-float:hover {
+            background-color: #1ebe57;
+            color: #fff;
+        }
+
+        @keyframes pulse-wa {
+            0% { box-shadow: 0 0 0 0 rgba(37, 211, 102, 0.7); }
+            70% { box-shadow: 0 0 0 15px rgba(37, 211, 102, 0); }
+            100% { box-shadow: 0 0 0 0 rgba(37, 211, 102, 0); }
+        }
+
+        /* --- RESPONSIVIDADE --- */
+        @media (max-width: 900px) {
+            .wallbox-section {
+                flex-direction: column;
+            }
+            .wallbox-texto h2 {
+                text-align: center !important;
+            }
+        }
+
+        @media (max-width: 768px) {
+            nav { display: none; }
+            .hero h1 { font-size: 2.2rem; }
+            .hero { padding-top: 140px; }
+            .btn-header, .btn-outline { padding: 10px 15px; font-size: 0.9rem; width: 100%; box-sizing: border-box;}
+            .hero-botoes { flex-direction: column; width: 100%; max-width: 300px; gap: 10px; }
+            .urgencia-banner h2 { font-size: 1.8rem; }
+            .whatsapp-float {
+                width: 55px;
+                height: 55px;
+                bottom: 20px;
+                right: 20px;
+            }
+        }
+    </style>
+
+    <!-- SCHEMA JSON-LD -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Electrician",
+      "name": "VR Soluções Elétricas",
+      "image": "LOGO SEM FUNDO PRETO SITE.png",
+      "url": "https://vrsolucoeseletricas.site",
+      "telephone": "+55-84-99124-2563",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Natal",
+        "addressRegion": "RN",
+        "addressCountry": "BR"
+      },
+      "areaServed": {
+        "@type": "AdministrativeArea",
+        "name": "Natal/RN"
+      },
+      "sameAs": [
+        "https://instagram.com/vrsolucoeseletricas.01"
+      ]
+    }
+    </script>
+</head>
+<body>
+
+    <header>
+        <div class="logo">
+            <img src="LOGO SEM FUNDO PRETO SITE.png" alt="VR Soluções Elétricas">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#inicio">Início</a></li>
+                <li><a href="#servicos">Serviços</a></li>
+                <li><a href="#wallbox">Wallbox</a></li>
+                <li><a href="#diferenciais">Diferenciais</a></li>
+            </ul>
+        </nav>
+        <a href="https://wa.me/5584991242563" target="_blank" rel="noopener noreferrer" class="btn-header">Orçamento</a>
+    </header>
+
+    <section class="hero" id="inicio">
+        <span class="badge-urgencia">Atendimento de Urgência</span>
+        <h1>Soluções Elétricas Completas em <span>Natal / RN</span></h1>
+        <p>Instalações, manutenção preventiva, resolução de panes e quadros de energia. Profissionalismo, técnica e segurança para sua residência ou comércio.</p>
+        
+        <!-- BOTOES LADO A LADO -->
+        <div class="hero-botoes">
+            <a href="https://wa.me/5584991242563" target="_blank" rel="noopener noreferrer" class="btn-header" style="padding: 15px 35px; font-size: 1.1rem;">Fazer Orçamento</a>
+            <a href="tel:+5584991242563" class="btn-outline" style="padding: 13px 35px; font-size: 1.1rem;">Ligar Agora</a>
+        </div>
+    </section>
+
+    <!-- BANNER DE URGÊNCIA -->
+    <section class="urgencia-banner">
+        <h2>Problema Elétrico Não Pode Esperar!</h2>
+        <p>Cheiro de queimado, curto-circuito, disjuntor desarmando ou queda de energia? Evite riscos de incêndio. Resolvemos o seu problema agora mesmo!</p>
+        <a href="tel:+5584991242563" class="btn-dark">Ligar para Emergência</a>
+    </section>
+
+    <!-- SERVIÇOS -->
+    <section class="servicos" id="servicos">
+        <h2 class="titulo-secao">Nossos <span>Serviços</span></h2>
+        <div class="grid-servicos">
+            <div class="card-servico">
+                <h3>Instalações Residenciais</h3>
+                <p>Instalação e troca de chuveiros, tomadas, interruptores, luminárias e ventiladores de teto ou parede com total segurança.</p>
+            </div>
+            <div class="card-servico">
+                <h3>Quadros de Disjuntor (QDC)</h3>
+                <p>Montagem, organização e modernização de quadros de distribuição. Troca de fiação antiga e adequação de circuitos.</p>
+            </div>
+            <div class="card-servico">
+                <h3>Padrão Cosern</h3>
+                <p>Instalação e regularização técnica de Padrão de Entrada e caixas de energia, seguindo rigidamente as normas da distribuidora.</p>
+            </div>
+            <div class="card-servico">
+                <h3>Solução de Curtos e Panes</h3>
+                <p>Diagnóstico preciso para resolução de curtos-circuitos, quedas constantes de energia e panes elétricas em geral.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- SEÇÃO WALLBOX -->
+    <section class="wallbox-section" id="wallbox">
+        <div class="wallbox-texto">
+            <h2 class="titulo-secao" style="text-align: left; margin-bottom: 20px;">Instalação de <span>Wallbox</span><br>(Carros Elétricos)</h2>
+            <p>Adquiriu ou pensa em adquirir um veículo elétrico? A instalação do carregador exige infraestrutura dedicada. Ligar na tomada comum de casa apresenta sérios riscos de incêndio e perda de garantia do veículo.</p>
+            <ul class="lista-wallbox">
+                <li><strong>Dimensionamento Correto:</strong> Avaliamos se o quadro geral suporta a carga do seu carregador.</li>
+                <li><strong>Proteção Exclusiva:</strong> Instalação de disjuntor e dispositivo DR adequados para proteger a bateria.</li>
+                <li><strong>Cabeamento Específico:</strong> Passagem de fios com a bitola certa para evitar superaquecimento.</li>
+            </ul>
+            <a href="https://wa.me/5584991242563" target="_blank" rel="noopener noreferrer" class="btn-header" style="margin-top: 15px;">Orçamento para Wallbox</a>
+        </div>
+        <div class="wallbox-imagem">
+            <img src="wallboximagem.jpg" alt="Instalação de Carregador Wallbox para Veículos Elétricos">
+        </div>
+    </section>
+
+    <!-- DIFERENCIAIS -->
+    <section class="diferenciais" id="diferenciais">
+        <h2 class="titulo-secao" style="margin-bottom: 40px;">Por que escolher a <span>VR Soluções</span>?</h2>
+        <div class="grid-diferenciais">
+            <div class="diferencial-item">
+                <h4>Profissional Técnico</h4>
+                <p>Serviço executado por profissional com formação técnica, garantindo segurança e respeito às normas (NR-10).</p>
+            </div>
+            <div class="diferencial-item">
+                <h4>Serviço com Garantia</h4>
+                <p>Trabalhamos com materiais de qualidade e oferecemos garantia em todas as nossas instalações e manutenções.</p>
+            </div>
+            <div class="diferencial-item">
+                <h4>Atendimento Pontual</h4>
+                <p>Sabemos que o seu tempo é valioso. Chegamos no horário marcado para resolver o seu problema sem atrasos.</p>
+            </div>
+            <div class="diferencial-item">
+                <h4>Facilidade no Pagamento</h4>
+                <p>Preço justo. Aceitamos pagamentos à vista via PIX, e também cartões de débito e crédito (aproximação).</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- MAPA (LOCALIZAÇÃO) -->
+    <section class="localizacao" id="localizacao">
+        <h2 class="titulo-secao" style="margin-bottom: 40px;">Nossa <span>Localização</span></h2>
+        <div class="mapa-container">
+            <iframe 
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d126916.74074251752!2d-35.292668!3d-5.805397!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7b2ffeb07a67237%3A0x6b7fc45f2e698886!2sNatal%2C%20RN!5e0!3m2!1spt-BR!2sbr!4v1700000000000!5m2!1spt-BR!2sbr" 
+                height="450" 
+                style="border:0;" 
+                allowfullscreen="" 
+                loading="lazy" 
+                referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+        </div>
+    </section>
+
+    <!-- RODAPÉ -->
+    <footer id="contacto">
+        <img src="LOGO SEM FUNDO PRETO SITE.png" alt="VR Soluções Elétricas" class="footer-logo">
+        <p><strong>VR Soluções Elétricas</strong> - Atendendo Natal/RN e Região Metropolitana</p>
+        <p>WhatsApp: <a href="https://wa.me/5584991242563" target="_blank" rel="noopener noreferrer">(84) 99124-2563</a></p>
+        <p>Instagram: <a href="https://instagram.com/vrsolucoeseletricas.01" target="_blank" rel="noopener noreferrer">@vrsolucoeseletricas.01</a></p>
+        <p>Website: <a href="https://vrsolucoeseletricas.site">vrsolucoeseletricas.site</a></p>
+        <p style="margin-top: 30px; font-size: 0.8rem; color: #555;">&copy; 2026 Todos os direitos reservados.</p>
+    </footer>
+
+    <!-- BOTÃO FLUTUANTE DO WHATSAPP -->
+    <a href="https://wa.me/5584991242563" class="whatsapp-float" target="_blank" rel="noopener noreferrer" aria-label="Fale conosco no WhatsApp">
+        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" viewBox="0 0 16 16">
+            <path d="M13.601 2.326A7.85 7.85 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.9 7.9 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.9 7.9 0 0 0 13.6 2.326zM7.994 14.521a6.6 6.6 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.56 6.56 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592m3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.73.73 0 0 0-.529.247c-.182.198-.691.677-.691 1.654s.71 1.916.81 2.049c.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232"/>
+        </svg>
+    </a>
+
+</body>
+</html>

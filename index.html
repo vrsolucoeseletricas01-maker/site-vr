@@ -455,12 +455,35 @@
         }
 
         @media (max-width: 768px) {
-            nav { display: none; }
+            /* Oculta os itens do menu e o botão especificamente do CABEÇALHO */
+            nav, header .btn-header { 
+                display: none; 
+            }
+            
+            /* Centraliza a Logo no Cabeçalho */
+            header {
+                justify-content: center;
+            }
+
             .hero h1 { font-size: 2.2rem; }
             .hero { padding-top: 140px; }
-            .btn-header, .btn-outline { padding: 10px 15px; font-size: 0.9rem; width: 100%; box-sizing: border-box;}
-            .hero-botoes { flex-direction: column; width: 100%; max-width: 300px; gap: 10px; }
+            
+            /* Ajustes dos botões na seção Hero */
+            .hero-botoes .btn-header, .btn-outline { 
+                padding: 10px 15px; 
+                font-size: 0.9rem; 
+                width: 100%; 
+                box-sizing: border-box;
+            }
+            .hero-botoes { 
+                flex-direction: column; 
+                width: 100%; 
+                max-width: 300px; 
+                gap: 10px; 
+            }
+            
             .urgencia-banner h2 { font-size: 1.8rem; }
+            
             .whatsapp-float {
                 width: 55px;
                 height: 55px;

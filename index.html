@@ -1,659 +1,720 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt-BR" class="scroll-smooth">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag( ){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-XXXXXXXXXX');
+    </script>
     
-    <!-- SEO BÁSICO OTIMIZADO PARA ALTO PADRÃO E EXPANSAO REGIONAL -->
-    <title>Eletricista em Natal e Parnamirim | Alto Padrão | VR Soluções</title>
-    <meta name="description" content="Eletricista de alto padrão em Natal e Parnamirim (RN). Atendimento especializado em Tirol, Petrópolis, Capim Macio, Nova Parnamirim e região. Instalação de Wallbox e urgências.">
-    <meta name="keywords" content="eletricista em natal, eletricista parnamirim, eletricista nova parnamirim, eletricista tirol natal, eletricista petropolis natal, eletricista capim macio, padrão cosern, wallbox natal, manutenção elétrica, vr soluçoes eletricas">
-    <link rel="canonical" href="https://vrsolucoeseletricas.site">
-    
-    <!-- FAVICON -->
-    <link rel="icon" type="image/png" href="https://ibb.co/hFYdDNRh">
-
-    <!-- SEO OPEN GRAPH -->
-    <meta property="og:locale" content="pt_BR">
-    <meta property="og:type" content="website">
-    <meta property="og:title" content="Eletricista em Natal e Parnamirim | VR Soluções Elétricas">
-    <meta property="og:description" content="Serviços elétricos profissionais e instalação de Wallbox em Natal, Parnamirim e região metropolitana. Alto padrão de acabamento e segurança.">
-    <meta property="og:url" content="https://vrsolucoeseletricas.site">
-    <meta property="og:site_name" content="VR Soluções Elétricas">
-
-    <!-- ESTILOS / CORES -->
-    <style>
-        :root {
-            --bg-main: #000000;
-            --bg-cards: #111111;
-            --bg-darker: #0a0a0a;
-            --primary-color: #F1A503; 
-            --primary-hover: #D18F03; 
-            --text-color: #FFFFFF;
-            --text-muted: #BBBBBB;
-            --danger-color: #d32f2f;
-            --whatsapp-color: #25d366;
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Qual é o horário de atendimento?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Atendemos 24 horas por dia, 7 dias por semana em toda Natal e Parnamirim."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "A VR Soluções Elétricas fornece documentação técnica?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Sim. Emitimos laudos técnicos e documentação de responsabilidade técnica (ART/TRT) para projetos, condomínios e concessionárias."
+          }
         }
+      ]
+    }
+    </script>
 
-        @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;800&display=swap');
-
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-            font-family: 'Montserrat', sans-serif;
-            scroll-behavior: smooth;
-        }
-
-        body {
-            background-color: var(--bg-main);
-            color: var(--text-color);
-            line-height: 1.6;
-        }
-
-        /* --- CABEÇALHO --- */
-        header {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            padding: 15px 5%;
-            background-color: rgba(0, 0, 0, 0.95);
-            position: fixed;
-            width: 100%;
-            top: 0;
-            z-index: 1000;
-            border-bottom: 2px solid var(--primary-color);
-        }
-
-        .logo img {
-            height: 60px;
-        }
-
-        nav ul {
-            display: flex;
-            list-style: none;
-            gap: 30px;
-        }
-
-        nav a {
-            color: var(--text-color);
-            text-decoration: none;
-            font-weight: 600;
-            transition: color 0.3s;
-        }
-
-        nav a:hover {
-            color: var(--primary-color);
-        }
-
-        .btn-header {
-            background-color: var(--primary-color);
-            color: #000000;
-            padding: 12px 25px;
-            border-radius: 5px;
-            font-weight: 800;
-            text-transform: uppercase;
-            text-decoration: none;
-            transition: background-color 0.3s;
-            display: inline-block;
-            text-align: center;
-        }
-
-        .btn-header:hover {
-            background-color: var(--primary-hover);
-        }
-
-        /* --- BOTOES HERO --- */
-        .hero-botoes {
-            display: flex;
-            gap: 15px;
-            flex-wrap: wrap;
-        }
-
-        .btn-outline {
-            background-color: transparent;
-            color: var(--primary-color);
-            border: 2px solid var(--primary-color);
-            padding: 10px 25px;
-            border-radius: 5px;
-            font-weight: 800;
-            text-transform: uppercase;
-            text-decoration: none;
-            transition: all 0.3s;
-            display: inline-block;
-            text-align: center;
-        }
-
-        .btn-outline:hover {
-            background-color: var(--primary-color);
-            color: #000;
-        }
-
-        /* --- HERO SECTION --- */
-        .hero {
-            padding: 180px 5% 100px 5%;
-            min-height: 85vh;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: flex-start;
-            background: linear-gradient(rgba(0, 0, 0, 0.88), rgba(0, 0, 0, 0.95)), url('https://images.unsplash.com/photo-1621905252507-b35492cc74b4?q=80&w=2069') center/cover;
-        }
-
-        .badge-urgencia {
-            background-color: var(--danger-color);
-            color: #fff;
-            padding: 5px 15px;
-            border-radius: 20px;
-            font-weight: 600;
-            font-size: 0.9rem;
-            margin-bottom: 20px;
-            display: inline-block;
-        }
-
-        .hero h1 {
-            font-size: 3.2rem;
-            font-weight: 800;
-            max-width: 800px;
-            line-height: 1.2;
-            margin-bottom: 20px;
-        }
-
-        .hero h1 span {
-            color: var(--primary-color);
-        }
-
-        .hero p {
-            font-size: 1.2rem;
-            color: var(--text-muted);
-            max-width: 650px;
-            margin-bottom: 35px;
-        }
-
-        /* --- SERVIÇOS --- */
-        .servicos {
-            padding: 80px 5%;
-            background-color: var(--bg-main);
-        }
-
-        .titulo-secao {
-            font-size: 2.3rem;
-            text-align: center;
-            margin-bottom: 50px;
-            color: var(--text-color);
-            line-height: 1.3;
-        }
-
-        .titulo-secao span {
-            color: var(--primary-color);
-        }
-
-        .grid-servicos {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-            gap: 25px;
-        }
-
-        .card-servico {
-            background-color: var(--bg-cards);
-            padding: 35px 25px;
-            border-radius: 8px;
-            transition: transform 0.3s, box-shadow 0.3s;
-            border-bottom: 4px solid var(--primary-color);
-        }
-
-        .card-servico:hover {
-            transform: translateY(-5px);
-            box-shadow: 0 10px 20px rgba(241, 165, 3, 0.15);
-        }
-
-        .card-servico h3 {
-            margin-bottom: 15px;
-            font-size: 1.4rem;
-            color: var(--primary-color);
-        }
-
-        .card-servico p {
-            color: var(--text-muted);
-            font-size: 0.95rem;
-        }
-
-        /* --- BANNER DE URGÊNCIA --- */
-        .urgencia-banner {
-            background: linear-gradient(135deg, var(--primary-color), var(--primary-hover));
-            color: #000;
-            padding: 60px 5%;
-            text-align: center;
-        }
-
-        .urgencia-banner h2 {
-            font-size: 2.2rem;
-            font-weight: 800;
-            margin-bottom: 15px;
-        }
-
-        .urgencia-banner p {
-            font-size: 1.1rem;
-            font-weight: 600;
-            margin-bottom: 30px;
-            max-width: 700px;
-            margin-left: auto;
-            margin-right: auto;
-        }
-
-        .urgencia-banner .btn-dark {
-            background-color: #000;
-            color: var(--primary-color);
-            padding: 15px 35px;
-            border-radius: 5px;
-            font-weight: 800;
-            text-transform: uppercase;
-            text-decoration: none;
-            transition: background 0.3s;
-            display: inline-block;
-        }
-
-        .urgencia-banner .btn-dark:hover {
-            background-color: #222;
-        }
-
-        /* --- SEÇÃO WALLBOX --- */
-        .wallbox-section {
-            padding: 80px 5%;
-            background-color: var(--bg-cards);
-            display: flex;
-            align-items: center;
-            gap: 50px;
-            border-top: 1px solid #222;
-            border-bottom: 1px solid #222;
-        }
-
-        .wallbox-texto {
-            flex: 1;
-        }
-
-        .wallbox-texto p {
-            font-size: 1.1rem;
-            color: var(--text-muted);
-        }
-
-        .wallbox-imagem {
-            flex: 1;
-            border-radius: 10px;
-            overflow: hidden;
-            border: 3px solid var(--primary-color);
-            box-shadow: 0 10px 30px rgba(241, 165, 3, 0.15);
-        }
-
-        .wallbox-imagem img {
-            width: 100%;
-            height: auto;
-            display: block;
-            transition: transform 0.5s;
-        }
-
-        .wallbox-imagem:hover img {
-            transform: scale(1.05);
-        }
-
-        .lista-wallbox {
-            list-style: none;
-            margin: 30px 0;
-        }
-
-        .lista-wallbox li {
-            margin-bottom: 20px;
-            padding-left: 40px;
-            position: relative;
-            font-size: 1.05rem;
-            color: var(--text-muted);
-        }
-
-        .lista-wallbox li strong {
-            color: var(--text-color);
-        }
-
-        .lista-wallbox li::before {
-            content: '✓';
-            position: absolute;
-            left: 0;
-            top: 2px;
-            background-color: var(--primary-color);
-            color: #000;
-            width: 25px;
-            height: 25px;
-            border-radius: 50%;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            font-weight: bold;
-            font-size: 1rem;
-        }
-
-        /* --- DIFERENCIAIS --- */
-        .diferenciais {
-            padding: 80px 5%;
-            background-color: var(--bg-darker);
-        }
-
-        .grid-diferenciais {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-            gap: 30px;
-            text-align: center;
-        }
-
-        .diferencial-item h4 {
-            color: var(--primary-color);
-            font-size: 1.2rem;
-            margin-bottom: 10px;
-            font-weight: 800;
-        }
-
-        .diferencial-item p {
-            color: var(--text-muted);
-            font-size: 0.9rem;
-        }
-
-        /* --- MAPA E LOCALIZAÇÃO --- */
-        .localizacao {
-            padding: 80px 5%;
-            background-color: var(--bg-main);
-            text-align: center;
-        }
-
-        .mapa-container {
-            width: 100%;
-            max-width: 1000px;
-            margin: 0 auto;
-            border-radius: 10px;
-            overflow: hidden;
-            border: 2px solid #222;
-            box-shadow: 0 5px 15px rgba(0,0,0,0.5);
-            transition: border-color 0.3s;
-        }
-
-        .mapa-container:hover {
-            border-color: var(--primary-color);
-        }
-
-        .mapa-container iframe {
-            display: block;
-            width: 100%;
-        }
-
-        /* --- RODAPÉ --- */
-        footer {
-            background-color: #050505;
-            padding: 50px 5%;
-            text-align: center;
-            border-top: 1px solid #222;
-            font-size: 0.95rem;
-            color: var(--text-muted);
-        }
-
-        footer p {
-            margin-bottom: 15px;
-        }
-
-        footer a {
-            color: var(--primary-color);
-            text-decoration: none;
-            font-weight: 600;
-            transition: color 0.3s;
-        }
-
-        footer a:hover {
-            color: var(--primary-hover);
-        }
-
-        .footer-logo {
-            height: 60px;
-            margin-bottom: 20px;
-        }
-
-        /* --- BOTÃO FLUTUANTE DO WHATSAPP --- */
-        .whatsapp-float {
-            position: fixed;
-            width: 60px;
-            height: 60px;
-            bottom: 30px;
-            right: 30px;
-            background-color: var(--whatsapp-color);
-            color: #FFF;
-            border-radius: 50px;
-            text-align: center;
-            box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
-            z-index: 1000;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            text-decoration: none;
-            transition: background-color 0.3s;
-            animation: pulse-wa 2s infinite;
-        }
-
-        .whatsapp-float:hover {
-            background-color: #1ebe57;
-            color: #fff;
-        }
-
-        @keyframes pulse-wa {
-            0% { box-shadow: 0 0 0 0 rgba(37, 211, 102, 0.7); }
-            70% { box-shadow: 0 0 0 15px rgba(37, 211, 102, 0); }
-            100% { box-shadow: 0 0 0 0 rgba(37, 211, 102, 0); }
-        }
-
-        /* --- RESPONSIVIDADE --- */
-        @media (max-width: 900px) {
-            .wallbox-section {
-                flex-direction: column;
-            }
-            .wallbox-texto h2 {
-                text-align: center !important;
-            }
-        }
-
-        @media (max-width: 768px) {
-            /* Oculta os itens do menu e o botão especificamente do CABEÇALHO */
-            nav, header .btn-header { 
-                display: none; 
-            }
-            
-            /* Centraliza a Logo no Cabeçalho */
-            header {
-                justify-content: center;
-            }
-
-            .hero h1 { font-size: 2.2rem; }
-            .hero { padding-top: 140px; }
-            
-            /* Ajustes dos botões na seção Hero */
-            .hero-botoes .btn-header, .btn-outline { 
-                padding: 10px 15px; 
-                font-size: 0.9rem; 
-                width: 100%; 
-                box-sizing: border-box;
-            }
-            .hero-botoes { 
-                flex-direction: column; 
-                width: 100%; 
-                max-width: 300px; 
-                gap: 10px; 
-            }
-            
-            .urgencia-banner h2 { font-size: 1.8rem; }
-            
-            .whatsapp-float {
-                width: 55px;
-                height: 55px;
-                bottom: 20px;
-                right: 20px;
-            }
-        }
-    </style>
-
-    <!-- SCHEMA JSON-LD -->
     <script type="application/ld+json">
     {
       "@context": "https://schema.org",
       "@type": "Electrician",
       "name": "VR Soluções Elétricas",
-      "image": "LOGO SEM FUNDO PRETO SITE.png",
-      "url": "https://vrsolucoeseletricas.site",
-      "telephone": "+55-84-99124-2563",
+      "image": "https://www.vrsolucoeseletricas.site/LOGO SEM FUNDO PRETO SITE.png",
+      "@id": "https://www.vrsolucoeseletricas.site",
+      "url": "https://www.vrsolucoeseletricas.site",
+      "telephone": "+558491242563",
       "address": {
         "@type": "PostalAddress",
         "addressLocality": "Natal",
         "addressRegion": "RN",
         "addressCountry": "BR"
       },
-      "areaServed": [
-        {
-          "@type": "AdministrativeArea",
-          "name": "Natal/RN"
-        },
-        {
-          "@type": "AdministrativeArea",
-          "name": "Parnamirim/RN"
-        }
-      ],
-      "sameAs": [
-        "https://instagram.com/vrsolucoeseletricas.01"
-      ]
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": -5.79448,
+        "longitude": -35.2110
+      },
+      "priceRange": "$$"
     }
     </script>
-</head>
-<body>
 
-    <header>
-        <div class="logo">
-            <img src="LOGO SEM FUNDO PRETO SITE.png" alt="VR Soluções Elétricas">
-        </div>
-        <nav>
-            <ul>
-                <li><a href="#inicio">Início</a></li>
-                <li><a href="#servicos">Serviços</a></li>
-                <li><a href="#wallbox">Wallbox</a></li>
-                <li><a href="#diferenciais">Diferenciais</a></li>
-            </ul>
-        </nav>
-        <a href="https://wa.me/5584991242563" target="_blank" rel="noopener noreferrer" class="btn-header">Orçamento</a>
-    </header>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <section class="hero" id="inicio">
-        <span class="badge-urgencia">Atendimento de Urgência</span>
-        <h1>Soluções Elétricas Completas em <span>Natal e Parnamirim</span></h1>
-        <p>Instalações, manutenção preventiva, resolução de panes e quadros de energia. Profissionalismo, técnica e segurança para sua residência ou comércio.</p>
+    <title>Eletricista em Natal e Parnamirim - RN | Instalação Wallbox | VR Soluções Elétricas</title>
+    <meta name="description" content="Procurando eletricista em Natal ou Parnamirim? A VR Soluções Elétricas oferece serviços residenciais, comerciais e instalação de Wallbox. Atendimento 24h.">
+    <meta name="keywords" content="eletricista em natal, eletricista em parnamirim, instalação de wallbox natal, carregador carro elétrico rn, eletricista ponta negra, eletricista nova parnamirim, eletricista tirol, eletricista 24 horas natal, vr solucoes eletricas">
+    <meta name="author" content="VR Soluções Elétricas">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://www.vrsolucoeseletricas.site">
+
+    <meta property="og:title" content="VR Soluções Elétricas: Especialista em Instalações e Wallbox no RN">
+    <meta property="og:description" content="Serviços elétricos completos e infraestrutura para carregadores de veículos elétricos (Wallbox) em Natal e Parnamirim.">
+    <meta property="og:image" content="LOGO SEM FUNDO PRETO SITE.png"> 
+    <meta property="og:url" content="https://www.vrsolucoeseletricas.site">
+    <meta property="og:type" content="website">
+
+    <link rel="preload" as="image" href="https://images.unsplash.com/photo-1621905251189-08b45d6a269e?q=80&w=2069&auto=format&fit=crop">
+    <link rel="preconnect" href="https://api.whatsapp.com" crossorigin>
+
+    <link rel="icon" href="favicon.png" type="image/png"> 
+
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+    <style>
+        body { font-family: 'Inter', sans-serif; }
+        details > summary::-webkit-details-marker { display: none; }
+        .hide-scrollbar::-webkit-scrollbar { display: none; }
+        .hide-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
         
-        <!-- BOTOES LADO A LADO -->
-        <div class="hero-botoes">
-            <a href="https://wa.me/5584991242563" target="_blank" rel="noopener noreferrer" class="btn-header" style="padding: 15px 35px; font-size: 1.1rem;">Fazer Orçamento</a>
-            <a href="tel:+5584991242563" class="btn-outline" style="padding: 13px 35px; font-size: 1.1rem;">Ligar Agora</a>
-        </div>
-    </section>
+        @keyframes marquee { 0% { transform: translateX(0%); } 100% { transform: translateX(-50%); } }
+        .animate-marquee { display: flex; width: max-content; animation: marquee 40s linear infinite; }
+        .animate-marquee:hover { animation-play-state: paused; }
+        
+        @keyframes swipe-hint { 0%, 100% { transform: translateX(0); } 50% { transform: translateX(-30px); } }
+        .animate-swipe-hint { animation: swipe-hint 1.5s ease-in-out 1.5s 1; }
+        
+        .pulse-btn { box-shadow: 0 0 0 0 rgba(37, 211, 102, 0.7); animation: pulse-wa 2s infinite; }
+        @keyframes pulse-wa { 0% { box-shadow: 0 0 0 0 rgba(37, 211, 102, 0.7); } 70% { box-shadow: 0 0 0 15px rgba(37, 211, 102, 0); } 100% { box-shadow: 0 0 0 0 rgba(37, 211, 102, 0); } }
+    </style>
+</head>
 
-    <!-- BANNER DE URGÊNCIA -->
-    <section class="urgencia-banner">
-        <h2>Problema Elétrico Não Pode Esperar!</h2>
-        <p>Cheiro de queimado, curto-circuito, disjuntor desarmando ou queda de energia? Evite riscos de incêndio. Resolvemos o seu problema agora mesmo!</p>
-        <a href="tel:+5584991242563" class="btn-dark">Ligar para Emergência</a>
-    </section>
+<body class="bg-black text-gray-200 pb-16 md:pb-0 relative">
 
-    <!-- SERVIÇOS -->
-    <section class="servicos" id="servicos">
-        <h2 class="titulo-secao">Nossos <span>Serviços</span></h2>
-        <div class="grid-servicos">
-            <div class="card-servico">
-                <h3>Instalações Residenciais</h3>
-                <p>Instalação e troca de chuveiros, tomadas, interruptores, luminárias e ventiladores de teto ou parede com total segurança.</p>
+    <div class="fixed top-0 left-0 w-full h-[3px] z-[60] bg-zinc-900">
+        <div id="scroll-progress" class="h-full bg-gradient-to-r from-white to-yellow-500 w-0 rounded-r-full transition-all duration-150"></div>
+    </div>
+
+    <div class="sticky top-0 z-50 w-full shadow-2xl">
+        <header class="bg-black/95 backdrop-blur-sm border-b border-zinc-900">
+            <nav class="container mx-auto px-4 md:px-6 py-3 flex justify-between items-center">
+                <a href="#" aria-label="Início">
+                    <img src="LOGO SEM FUNDO PRETO SITE.png" alt="Logo VR Soluções Elétricas" class="h-10 md:h-14 haptic-btn">
+                </a>
+                
+                <div class="hidden lg:flex items-center space-x-6">
+                    <a href="#inicio" class="text-white hover:text-yellow-500 transition duration-300 font-medium haptic-btn">Início</a>
+                    <a href="#servicos" class="text-white hover:text-yellow-500 transition duration-300 font-medium haptic-btn">Serviços</a>
+                    <a href="#wallbox" class="text-white hover:text-yellow-500 transition duration-300 font-medium haptic-btn">Wallbox</a>
+                    <a href="#portfolio" class="text-white hover:text-yellow-500 transition duration-300 font-medium haptic-btn">Obras</a>
+                    <a href="#avaliacoes" class="text-white hover:text-yellow-500 transition duration-300 font-medium haptic-btn">Avaliações</a>
+                </div>
+
+                <a href="https://api.whatsapp.com/send?phone=558491242563&text=Olá!%20Acessei%20o%20site%20e%20gostaria%20de%20um%20orçamento." target="_blank" aria-label="Contato via WhatsApp" class="dynamic-wa haptic-btn bg-green-500 hover:bg-green-600 text-white font-bold py-2 px-4 rounded-lg shadow-lg flex items-center gap-2 text-sm md:text-base transform hover:scale-105 transition-transform">
+                    <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 16 16" aria-hidden="true">
+                        <path d="M13.601 2.326A7.85 7.85 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.9 7.9 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.9 7.9 0 0 0 13.6 2.326zM7.994 14.521a6.6 6.6 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.56 6.56 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592m3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.73.73 0 0 0-.529.247c-.182.198-.691.677-.691 1.654s.71 1.916.81 2.049c.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232"/>
+                    </svg>
+                    <span>WhatsApp</span>
+                </a>
+            </nav>
+            
+            <div class="bg-yellow-500/10 py-2 border-b border-zinc-900 overflow-hidden relative flex items-center">
+                <div class="absolute left-0 top-0 bottom-0 w-8 bg-gradient-to-r from-black to-transparent z-10 pointer-events-none"></div>
+                <div class="absolute right-0 top-0 bottom-0 w-8 bg-gradient-to-l from-black to-transparent z-10 pointer-events-none"></div>
+                <div class="animate-marquee flex gap-10 px-4 text-xs sm:text-sm">
+                    <div class="flex gap-10 items-center">
+                        <div class="text-white font-bold whitespace-nowrap"><span class="text-yellow-500" aria-hidden="true">✓</span> Técnico Certificado CFT</div>
+                        <div class="text-white font-bold whitespace-nowrap"><span class="text-yellow-500" aria-hidden="true">✓</span> Instalação de Wallbox em Natal</div>
+                        <div class="text-white font-bold whitespace-nowrap"><span class="text-yellow-500" aria-hidden="true">✓</span> Eletricista em Ponta Negra</div>
+                        <div class="text-white font-bold whitespace-nowrap"><span class="text-yellow-500" aria-hidden="true">✓</span> Troca de Chuveiro e Resistência</div>
+                        <div class="text-white font-bold whitespace-nowrap"><span class="text-yellow-500" aria-hidden="true">✓</span> Eletricista em Nova Parnamirim</div>
+                        <div class="text-white font-bold whitespace-nowrap"><span class="text-yellow-500" aria-hidden="true">✓</span> Troca de Tomadas e Disjuntores</div>
+                        <div class="text-white font-bold whitespace-nowrap"><span class="text-yellow-500" aria-hidden="true">✓</span> Eletricista no Tirol e Capim Macio</div>
+                    </div>
+                    <div class="flex gap-10 items-center pr-10">
+                        <div class="text-white font-bold whitespace-nowrap"><span class="text-yellow-500" aria-hidden="true">✓</span> Técnico Certificado CFT</div>
+                        <div class="text-white font-bold whitespace-nowrap"><span class="text-yellow-500" aria-hidden="true">✓</span> Instalação de Wallbox em Natal</div>
+                        <div class="text-white font-bold whitespace-nowrap"><span class="text-yellow-500" aria-hidden="true">✓</span> Eletricista em Ponta Negra</div>
+                        <div class="text-white font-bold whitespace-nowrap"><span class="text-yellow-500" aria-hidden="true">✓</span> Troca de Chuveiro e Resistência</div>
+                        <div class="text-white font-bold whitespace-nowrap"><span class="text-yellow-500" aria-hidden="true">✓</span> Eletricista em Nova Parnamirim</div>
+                        <div class="text-white font-bold whitespace-nowrap"><span class="text-yellow-500" aria-hidden="true">✓</span> Troca de Tomadas e Disjuntores</div>
+                        <div class="text-white font-bold whitespace-nowrap"><span class="text-yellow-500" aria-hidden="true">✓</span> Eletricista no Tirol e Capim Macio</div>
+                    </div>
+                </div>
             </div>
-            <div class="card-servico">
-                <h3>Quadros de Disjuntor (QDC)</h3>
-                <p>Montagem, organização e modernização de quadros de distribuição. Troca de fiação antiga e adequação de circuitos.</p>
+        </header>
+    </div>
+
+    <main>
+        <section id="inicio" class="relative pt-12 pb-16 md:pt-32 md:pb-32 flex flex-col justify-center min-h-[75vh] bg-cover bg-center" style="background-image: linear-gradient(rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.95)), url('https://images.unsplash.com/photo-1621905251189-08b45d6a269e?q=80&w=2069&auto=format&fit=crop');">
+            <div class="container mx-auto px-6 text-left">
+                
+                <span class="bg-red-600 text-white px-3 py-1 rounded-full text-xs md:text-sm font-bold tracking-wide mb-4 inline-block shadow-lg">
+                    Atendimento 24h Urgência
+                </span>
+
+                <h1 class="text-4xl md:text-6xl lg:text-7xl font-extrabold leading-tight mb-4 text-white max-w-4xl tracking-tight">
+                    Soluções Elétricas Completas em <span class="text-yellow-500">Natal / RN</span>
+                </h1>
+                
+                <div class="flex items-center gap-2.5 bg-zinc-900/90 p-2.5 rounded-lg border border-zinc-800 w-fit mb-6 shadow-xl backdrop-blur-sm">
+                    <div class="flex text-yellow-400 text-sm tracking-tighter" aria-hidden="true">★★★★★</div>
+                    <span class="text-gray-200 text-xs md:text-sm font-semibold">Avaliado com Nota 5.0 no Google</span>
+                </div>
+
+                <p class="text-base md:text-xl font-light mb-6 max-w-2xl text-gray-300">
+                    Manutenção preventiva, resolution definitiva de panes, reformas de quadros e infraestrutura padronizada em Natal e Parnamirim.
+                </p>
+
+                <div class="flex overflow-x-auto gap-2.5 hide-scrollbar pb-4 mb-2 snap-x">
+                    <a href="https://api.whatsapp.com/send?phone=558491242563&text=Olá!%20Estou%20com%20falta%20de%20luz/emergência." class="dynamic-wa haptic-btn bg-zinc-800 hover:bg-zinc-700 text-gray-200 text-xs md:text-sm font-semibold py-2 px-4 rounded-full border border-zinc-700 whitespace-nowrap shrink-0 snap-start transition-colors shadow-sm">
+                        <span aria-hidden="true">⚡</span> Faltou Luz
+                    </a>
+                    <a href="#wallbox" class="haptic-btn bg-zinc-800 hover:bg-zinc-700 text-gray-200 text-xs md:text-sm font-semibold py-2 px-4 rounded-full border border-zinc-700 whitespace-nowrap shrink-0 snap-start transition-colors shadow-sm">
+                        <span aria-hidden="true">🚗</span> Orçar Wallbox
+                    </a>
+                    <a href="https://api.whatsapp.com/send?phone=558491242563&text=Olá!%20Meu%20chuveiro%20queimou." class="dynamic-wa haptic-btn bg-zinc-800 hover:bg-zinc-700 text-gray-200 text-xs md:text-sm font-semibold py-2 px-4 rounded-full border border-zinc-700 whitespace-nowrap shrink-0 snap-start transition-colors shadow-sm">
+                        <span aria-hidden="true">🚿</span> Chuveiro Queimado
+                    </a>
+                    <a href="https://api.whatsapp.com/send?phone=558491242563&text=Olá!%20Preciso%20de%20revisão%20no%20meu%20quadro." class="dynamic-wa haptic-btn bg-zinc-800 hover:bg-zinc-700 text-gray-200 text-xs md:text-sm font-semibold py-2 px-4 rounded-full border border-zinc-700 whitespace-nowrap shrink-0 snap-start transition-colors shadow-sm">
+                        <span aria-hidden="true">🎛️</span> Revisar Quadro
+                    </a>
+                </div>
+
+                <div class="flex flex-col sm:flex-row gap-4 mb-5">
+                    <a href="https://api.whatsapp.com/send?phone=558491242563&text=Olá!%20Gostaria%20de%20solicitar%20um%20orçamento." class="dynamic-wa haptic-btn bg-yellow-500 hover:bg-yellow-400 text-black font-extrabold py-4 px-6 rounded shadow-xl uppercase tracking-wide text-center flex items-center justify-center gap-2 transform hover:scale-105 transition-all duration-300 hover:shadow-[0_0_20px_rgba(234,179,8,0.4)] w-full sm:w-auto" aria-label="Solicitar Orçamento">
+                        Solicitar Visita Técnica
+                    </a>
+                </div>
+
+                <div class="flex flex-wrap items-center gap-x-6 gap-y-3 opacity-90">
+                    <div class="flex items-center gap-1.5 text-xs md:text-sm text-gray-300 font-medium">
+                        <span class="text-yellow-500 text-lg" aria-hidden="true">👷‍♂️</span> Técnico Certificado
+                    </div>
+                    <div class="flex items-center gap-1.5 text-xs md:text-sm text-gray-300 font-medium">
+                        <span class="text-yellow-500 text-lg" aria-hidden="true">💳</span> Aceitamos Cartões
+                    </div>
+                    <div class="flex items-center gap-1.5 text-xs md:text-sm text-gray-300 font-medium">
+                        <span class="text-yellow-500 text-lg" aria-hidden="true">⚡</span> Padrão Cosern/NBR
+                    </div>
+                </div>
+
             </div>
-            <div class="card-servico">
-                <h3>Padrão Cosern</h3>
-                <p>Instalação e regularização técnica de Padrão de Entrada e caixas de energia, seguindo rigidamente as normas da distribuidora.</p>
+        </section>
+
+        <section class="py-12 bg-zinc-950 border-t border-zinc-900">
+            <div class="container mx-auto px-6">
+                <h2 class="text-2xl font-bold text-white text-center mb-10">Atendimento VR Soluções Elétricas</h2>
+                <div class="grid grid-cols-1 sm:grid-cols-3 gap-8">
+                    <div class="text-center">
+                        <div class="bg-yellow-500/20 w-12 h-12 rounded-full flex items-center justify-center mx-auto mb-4 text-yellow-500 font-bold">1</div>
+                        <h4 class="text-white font-bold mb-1">Contato Rápido</h4>
+                        <p class="text-xs text-gray-400">Clique e fale direto conosco no WhatsApp.</p>
+                    </div>
+                    <div class="text-center">
+                        <div class="bg-yellow-500/20 w-12 h-12 rounded-full flex items-center justify-center mx-auto mb-4 text-yellow-500 font-bold">2</div>
+                        <h4 class="text-white font-bold mb-1">Diagnóstico</h4>
+                        <p class="text-xs text-gray-400">Avaliamos a sua necessidade prontamente.</p>
+                    </div>
+                    <div class="text-center">
+                        <div class="bg-yellow-500/20 w-12 h-12 rounded-full flex items-center justify-center mx-auto mb-4 text-yellow-500 font-bold">3</div>
+                        <h4 class="text-white font-bold mb-1">Solução</h4>
+                        <p class="text-xs text-gray-400">Serviço certificado e com garantia no local.</p>
+                    </div>
+                </div>
             </div>
-            <div class="card-servico">
-                <h3>Solução de Curtos e Panes</h3>
-                <p>Diagnóstico preciso para resolução de curtos-circuitos, quedas constantes de energia e panes elétricas em geral.</p>
+        </section>
+
+        <section id="servicos" class="py-16 bg-black border-t border-zinc-900">
+            <div class="container mx-auto px-4 md:px-6">
+                <h2 class="text-2xl md:text-4xl font-bold mb-8 text-white px-2">Nossos Serviços</h2>
+                
+                <div id="servicos-carousel" class="animate-swipe-hint flex overflow-x-auto gap-4 snap-x snap-mandatory pb-6 hide-scrollbar md:grid md:grid-cols-4 px-2">
+                    <div class="bg-zinc-900 p-6 rounded-lg border border-zinc-800 shrink-0 w-[78vw] md:w-full snap-center flex flex-col justify-between hover:border-yellow-500 transition-colors">
+                        <div>
+                            <span class="text-3xl mb-4 block text-yellow-500" aria-hidden="true">⚡</span>
+                            <h3 class="text-lg font-bold mb-2 text-white">Instalações Gerais</h3>
+                            <p class="text-sm text-gray-400">Substituição de disjuntores, tomadas, interruptores modernos e projetos luminotécnicos.</p>
+                        </div>
+                    </div>
+                    <div class="bg-zinc-900 p-6 rounded-lg border border-zinc-800 shrink-0 w-[78vw] md:w-full snap-center flex flex-col justify-between hover:border-yellow-500 transition-colors">
+                        <div>
+                            <span class="text-3xl mb-4 block text-yellow-500" aria-hidden="true">🎛️</span>
+                            <h3 class="text-lg font-bold mb-2 text-white">Quadros de Energia</h3>
+                            <p class="text-sm text-gray-400">Montagem cirúrgica, organização técnica de barramentos e balanceamento de fases (QDC).</p>
+                        </div>
+                    </div>
+                    <div class="bg-zinc-900 p-6 rounded-lg border border-zinc-800 shrink-0 w-[78vw] md:w-full snap-center flex flex-col justify-between hover:border-yellow-500 transition-colors">
+                        <div>
+                            <span class="text-3xl mb-4 block text-yellow-500" aria-hidden="true">🔌</span>
+                            <h3 class="text-lg font-bold mb-2 text-white">Padrão de Entrada</h3>
+                            <p class="text-sm text-gray-400">Montagem completa de novos padrões de entrada seguindo estritamente as regras da Cosern.</p>
+                        </div>
+                    </div>
+                    <div class="bg-zinc-900 p-6 rounded-lg border border-zinc-800 shrink-0 w-[78vw] md:w-full snap-center flex flex-col justify-between hover:border-yellow-500 transition-colors">
+                        <div>
+                            <span class="text-3xl mb-4 block text-yellow-500" aria-hidden="true">🔍</span>
+                            <h3 class="text-lg font-bold mb-2 text-white">Resolução de Panes</h3>
+                            <p class="text-sm text-gray-400">Localização e correção imediata de curto-circuito, fugas de corrente e sobrecargas elétricas.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="wallbox" class="py-16 bg-zinc-950 border-t border-zinc-900">
+            <div class="container mx-auto px-4 md:px-6">
+                
+                <span class="bg-green-600 text-white px-3 py-1 rounded-full text-xs font-bold uppercase block w-fit mb-4">Especialidade Premium</span>
+                <h2 class="text-3xl md:text-4xl font-extrabold text-white mb-4">Instalação Especialista de Wallbox</h2>
+                <p class="text-gray-400 mb-8 max-w-2xl">Estrutura dedicada e em total conformidade com a NBR 17019 para carregar o seu veículo elétrico de forma rápida e segura na sua garagem em Natal ou Parnamirim.</p>
+                
+                <div class="mb-8 overflow-hidden rounded-lg shadow-2xl border border-zinc-800">
+                    <img src="wallboximagem.jpg" alt="Instalação de Wallbox" class="w-full object-cover max-h-[400px]">
+                </div>
+
+                <div class="grid grid-cols-2 md:grid-cols-4 gap-3 mb-8">
+                    <div class="bg-zinc-900 p-4 rounded border border-zinc-800 text-center"><span class="text-yellow-500 text-xl block mb-1" aria-hidden="true">⚡</span> <span class="text-xs font-bold text-white">Alta Velocidade</span></div>
+                    <div class="bg-zinc-900 p-4 rounded border border-zinc-800 text-center"><span class="text-yellow-500 text-xl block mb-1" aria-hidden="true">🛡️</span> <span class="text-xs font-bold text-white">Proteção DR Tipo A</span></div>
+                    <div class="bg-zinc-900 p-4 rounded border border-zinc-800 text-center"><span class="text-yellow-500 text-xl block mb-1" aria-hidden="true">🏡</span> <span class="text-xs font-bold text-white">Comodidade em Casa</span></div>
+                    <div class="bg-zinc-900 p-4 rounded border border-zinc-800 text-center"><span class="text-yellow-500 text-xl block mb-1" aria-hidden="true">⚙️</span> <span class="text-xs font-bold text-white">Certificação Técnica</span></div>
+                </div>
+
+                <h3 class="text-lg font-bold text-white mb-4 px-1">Tabela Comparativa de Infraestrutura</h3>
+                <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-8">
+                    <div class="border border-zinc-800 p-5 rounded-lg bg-black">
+                        <h4 class="font-bold text-white text-lg mb-2">Opção Bifásica <span class="text-gray-500 text-sm font-normal">(Até 7.4 kW)</span></h4>
+                        <ul class="text-sm text-gray-400 space-y-2">
+                            <li><span class="text-green-500 mr-1" aria-hidden="true">✔</span> Infraestrutura elétrica simplificada</li>
+                            <li><span class="text-green-500 mr-1" aria-hidden="true">✔</span> Compatível com redes bifásicas residenciais</li>
+                            <li><span class="text-green-500 mr-1" aria-hidden="true">✔</span> Carga completa durante o período noturno</li>
+                        </ul>
+                    </div>
+                    <div class="border-2 border-yellow-500 p-5 rounded-lg bg-zinc-900/60 relative shadow-[0_0_15px_rgba(234,179,8,0.15)]">
+                        <div class="absolute -top-3 right-4 bg-yellow-500 text-black text-[10px] font-bold px-2 py-1 rounded uppercase tracking-wider">Mais Recomendado</div>
+                        <h4 class="font-bold text-white text-lg mb-2">Opção Trifásica <span class="text-gray-500 text-sm font-normal">(Até 22 kW)</span></h4>
+                        <ul class="text-sm text-gray-400 space-y-2">
+                            <li><span class="text-yellow-500 mr-1" aria-hidden="true">✔</span> Carregamento em velocidade máxima</li>
+                            <li><span class="text-yellow-500 mr-1" aria-hidden="true">✔</span> Carga completa acelerada (de 2h a 4h)</li>
+                            <li><span class="text-yellow-500 mr-1" aria-hidden="true">✔</span> Ideal para novas redes trifásicas ou comércios</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <a href="https://api.whatsapp.com/send?phone=558491242563&text=Olá!%20Gostaria%20de%20um%20orçamento%20para%20instalação%20de%20Wallbox." target="_blank" class="dynamic-wa haptic-btn w-full md:w-auto md:px-12 block text-center bg-yellow-500 hover:bg-yellow-400 text-black font-bold py-4 rounded-lg shadow-lg mb-10 transition-colors">
+                    Solicitar Orçamento do Carregador
+                </a>
+
+                <div class="bg-black border border-zinc-800 rounded-lg p-1 max-w-3xl">
+                    <details class="group haptic-btn">
+                        <summary class="flex justify-between items-center p-4 font-semibold text-sm cursor-pointer text-white">
+                            Quais dispositivos de proteção são obrigatórios na instalação?
+                            <span class="text-yellow-500 transition-transform duration-200 group-open:rotate-180" aria-hidden="true">▼</span>
+                        </summary>
+                        <p class="p-4 text-xs md:text-sm text-gray-400 border-t border-zinc-800 bg-zinc-900/40">Conforme a norma NBR 17019, é obrigatório um circuito exclusivo partindo do quadro, composto por disjuntor termomagnético dimensionado e interruptor DR do Tipo A, protegendo o veículo e o imóvel contra surtos e fugas.</p>
+                    </details>
+                    <details class="group mt-2 haptic-btn">
+                        <summary class="flex justify-between items-center p-4 font-semibold text-sm cursor-pointer text-white">
+                            Qual é o tempo médio de instalação?
+                            <span class="text-yellow-500 transition-transform duration-200 group-open:rotate-180" aria-hidden="true">▼</span>
+                        </summary>
+                        <p class="p-4 text-xs md:text-sm text-gray-400 border-t border-zinc-800 bg-zinc-900/40">Geralmente, concluímos a passagem do cabeamento e a fixação do Wallbox entre 2 a 4 horas, dependendo da distância entre o seu quadro de energia e a garagem.</p>
+                    </details>
+                    <details class="group mt-2 haptic-btn">
+                        <summary class="flex justify-between items-center p-4 font-semibold text-sm cursor-pointer text-white">
+                            Atendem condomínios fechados?
+                            <span class="text-yellow-500 transition-transform duration-200 group-open:rotate-180" aria-hidden="true">▼</span>
+                        </summary>
+                        <p class="p-4 text-xs md:text-sm text-gray-400 border-t border-zinc-800 bg-zinc-900/40">Sim. Fornecemos toda a documentação técnica (TRT/ART) exigida pelas administrações de condomínios no RN para a liberação do serviço.</p>
+                    </details>
+                </div>
+
+            </div>
+        </section>
+
+        <section id="portfolio" class="py-16 bg-black border-t border-zinc-900">
+            <div class="container mx-auto px-4 md:px-6">
+                <h2 class="text-2xl md:text-4xl font-bold mb-3 text-white">Nossas Obras Executadas</h2>
+                <p class="text-sm text-gray-400 mb-8 max-w-xl">Veja registros reais de instalações e manutenções feitas por nós na região metropolitana.</p>
+                
+                <div id="portfolio-carousel" class="flex overflow-x-auto gap-4 snap-x snap-mandatory hide-scrollbar md:grid md:grid-cols-3">
+                    <div class="bg-zinc-900 rounded-lg overflow-hidden border border-zinc-800 shrink-0 w-[78vw] md:w-full snap-center">
+                        <img src="qdc.jpg" loading="lazy" alt="Obra de Quadro de Distribuição" class="w-full h-48 object-cover">
+                        <div class="p-4 bg-zinc-900">
+                            <span class="text-[10px] text-green-400 font-bold uppercase mb-1 block">📸 Instalação Real</span>
+                            <p class="font-bold text-white leading-tight">Montagem e Organização de QDC</p>
+                            <p class="text-xs text-gray-400 mt-1">📍 Serviço feito em Condomínio - Nova Parnamirim</p>
+                        </div>
+                    </div>
+                    <div class="bg-zinc-900 rounded-lg overflow-hidden border border-zinc-800 shrink-0 w-[78vw] md:w-full snap-center">
+                        <img src="wallbox.jpg" loading="lazy" alt="Obra de Carregador Elétrico" class="w-full h-48 object-cover">
+                        <div class="p-4 bg-zinc-900">
+                            <span class="text-[10px] text-green-400 font-bold uppercase mb-1 block">📸 Instalação Real</span>
+                            <p class="font-bold text-white leading-tight">Infraestrutura Exclusiva para Wallbox</p>
+                            <p class="text-xs text-gray-400 mt-1">📍 Residência de Alto Padrão - Tirol</p>
+                        </div>
+                    </div>
+                    <div class="bg-zinc-900 rounded-lg overflow-hidden border border-zinc-800 shrink-0 w-[78vw] md:w-full snap-center">
+                        <img src="manutencao-eletrica.jpg" loading="lazy" alt="Manutenção e Diagnóstico Técnico" class="w-full h-48 object-cover">
+                        <div class="p-4 bg-zinc-900">
+                            <span class="text-[10px] text-green-400 font-bold uppercase mb-1 block">📸 Instalação Real</span>
+                            <p class="font-bold text-white leading-tight">Diagnóstico e Resolução de Pane</p>
+                            <p class="text-xs text-gray-400 mt-1">📍 Manutenção Comercial - Ponta Negra</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="flex justify-center items-center gap-2 mt-5 md:hidden" id="portfolio-dots">
+                    <div class="w-2.5 h-2.5 rounded-full bg-yellow-500 transition-colors duration-300"></div>
+                    <div class="w-2.5 h-2.5 rounded-full bg-zinc-700 transition-colors duration-300"></div>
+                    <div class="w-2.5 h-2.5 rounded-full bg-zinc-700 transition-colors duration-300"></div>
+                </div>
+
+            </div>
+        </section>
+
+        <section id="avaliacoes" class="py-16 bg-zinc-950 border-t border-zinc-900">
+            <div class="container mx-auto px-4 md:px-6">
+                <h2 class="text-2xl md:text-4xl font-bold mb-2 text-white">Avaliações do Google</h2>
+                <p class="text-sm text-gray-400 mb-8">Opiniões de clientes reais retiradas diretamente do nosso Perfil de Empresa.</p>
+                
+                <div id="avaliacoes-carousel" class="flex overflow-x-auto gap-4 snap-x snap-mandatory hide-scrollbar md:grid md:grid-cols-3">
+                    <div class="bg-black p-6 rounded-lg border border-zinc-800 shrink-0 w-[78vw] md:w-full snap-center flex flex-col justify-between">
+                        <div>
+                            <div class="text-yellow-400 text-sm mb-2 font-serif" aria-hidden="true">★★★★★</div>
+                            <p class="text-xs md:text-sm text-gray-300 italic mb-4">"Cumprimento de prazo, atendimento excelente e preço justo. Total transparência com o cliente. Obrigada VR Soluções."</p>
+                        </div>
+                        <div>
+                            <p class="font-bold text-white text-sm">Karine Guedes</p>
+                            <span class="text-[10px] text-yellow-500 font-bold uppercase mt-1 block">Avaliação do Google</span>
+                        </div>
+                    </div>
+                    <div class="bg-black p-6 rounded-lg border border-zinc-800 shrink-0 w-[78vw] md:w-full snap-center flex flex-col justify-between">
+                        <div>
+                            <div class="text-yellow-400 text-sm mb-2 font-serif" aria-hidden="true">★★★★★</div>
+                            <p class="text-xs md:text-sm text-gray-300 italic mb-4">"Eletricista extremamente técnico, pontual e criterioso. Recomendo com toda a certeza para a região."</p>
+                        </div>
+                        <div>
+                            <p class="font-bold text-white text-sm">Vinicius Lopes</p>
+                            <span class="text-[10px] text-yellow-500 font-bold uppercase mt-1 block">Avaliação do Google</span>
+                        </div>
+                    </div>
+                    <div class="bg-black p-6 rounded-lg border border-zinc-800 shrink-0 w-[78vw] md:w-full snap-center flex flex-col justify-between">
+                        <div>
+                            <div class="text-yellow-400 text-sm mb-2 font-serif" aria-hidden="true">★★★★★</div>
+                            <p class="text-xs md:text-sm text-gray-300 italic mb-4">"Foi uma experiência surpreendente, é muito difícil encontrar profissionais com tanta capacidade e profissionalismo em Natal, parabéns!!!"</p>
+                        </div>
+                        <div>
+                            <p class="font-bold text-white text-sm">Telma Costa</p>
+                            <span class="text-[10px] text-yellow-500 font-bold uppercase mt-1 block">Avaliação do Google</span>
+                        </div>
+                    </div>
+                    <div class="bg-black p-6 rounded-lg border border-zinc-800 shrink-0 w-[78vw] md:w-full snap-center flex flex-col justify-between">
+                        <div>
+                            <div class="text-yellow-400 text-sm mb-2 font-serif" aria-hidden="true">★★★★★</div>
+                            <p class="text-xs md:text-sm text-gray-300 italic mb-4">"Excelente trabalho na instalação do carregador BYD na minha residência. Conhece muito as normas técnicas."</p>
+                        </div>
+                        <div>
+                            <p class="font-bold text-white text-sm">Ricardo Silva</p>
+                            <span class="text-[10px] text-yellow-500 font-bold uppercase mt-1 block">Avaliação do Google</span>
+                        </div>
+                    </div>
+                    <div class="bg-black p-6 rounded-lg border border-zinc-800 shrink-0 w-[78vw] md:w-full snap-center flex flex-col justify-between">
+                        <div>
+                            <div class="text-yellow-400 text-sm mb-2 font-serif" aria-hidden="true">★★★★★</div>
+                            <p class="text-xs md:text-sm text-gray-300 italic mb-4">"Estávamos com problem sério de queda de luz no Capim Macio. O atendimento foi ágil e resolveu de forma cirúrgica."</p>
+                        </div>
+                        <div>
+                            <p class="font-bold text-white text-sm">Mariana Costa</p>
+                            <span class="text-[10px] text-yellow-500 font-bold uppercase mt-1 block">Avaliação do Google</span>
+                        </div>
+                    </div>
+                    <div class="bg-black p-6 rounded-lg border border-zinc-800 shrink-0 w-[78vw] md:w-full snap-center flex flex-col justify-between">
+                        <div>
+                            <div class="text-yellow-400 text-sm mb-2 font-serif" aria-hidden="true">★★★★★</div>
+                            <p class="text-xs md:text-sm text-gray-300 italic mb-4">"Muito caprichoso na organização da fiação do quadro de disjuntores. Preço justo pela qualidade da entrega."</p>
+                        </div>
+                        <div>
+                            <p class="font-bold text-white text-sm">Carlos Eduardo</p>
+                            <span class="text-[10px] text-yellow-500 font-bold uppercase mt-1 block">Avaliação do Google</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="flex justify-center items-center gap-2 mt-5 md:hidden" id="avaliacoes-dots">
+                    <div class="w-2 h-2 rounded-full bg-yellow-500 transition-colors duration-300"></div>
+                    <div class="w-2 h-2 rounded-full bg-zinc-700 transition-colors duration-300"></div>
+                    <div class="w-2 h-2 rounded-full bg-zinc-700 transition-colors duration-300"></div>
+                    <div class="w-2 h-2 rounded-full bg-zinc-700 transition-colors duration-300"></div>
+                    <div class="w-2 h-2 rounded-full bg-zinc-700 transition-colors duration-300"></div>
+                    <div class="w-2 h-2 rounded-full bg-zinc-700 transition-colors duration-300"></div>
+                </div>
+
+                <div class="text-center mt-12 mb-4">
+                    <button id="shareBtn" class="haptic-btn bg-zinc-900 border border-zinc-800 hover:border-yellow-500 text-white font-semibold py-3 px-6 rounded-full inline-flex items-center justify-center gap-2 shadow-lg transition-colors w-full sm:w-auto">
+                        <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8.684 13.342C8.886 12.938 9 12.482 9 12c0-.482-.114-.938-.316-1.342m0 2.684a3 3 0 110-2.684m0 2.684l6.632 3.316m-6.632-6l6.632-3.316m0 0a3 3 0 105.367-2.684 3 3 0 00-5.367 2.684zm0 9.316a3 3 0 105.368 2.684 3 3 0 00-5.368-2.684z"></path></svg>
+                        Gostou? Indique a VR Soluções
+                    </button>
+                </div>
+
+            </div>
+        </section>
+
+        <section id="atuacao" class="py-16 bg-black border-t border-zinc-900">
+            <div class="container mx-auto px-4 md:px-6">
+                <div class="text-center mb-12">
+                    <h2 class="text-2xl md:text-4xl font-bold text-white">Atendemos em <span class="text-yellow-500">Natal e Parnamirim</span></h2>
+                    <p class="text-sm md:text-lg text-gray-400 mt-2">Pronta resposta técnica com frota própria para residências, condomínios e comércios na região.</p>
+                </div>
+                <div class="w-full max-w-5xl mx-auto bg-zinc-900 rounded-lg shadow-xl p-4 border border-zinc-800">
+                    <iframe 
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d126895.10543666579!2d-35.28913958992683!3d-5.811654162489856!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7b2ffeb70059c2b%3A0x6b4fb24e39352e85!2sNatal%2C%20RN!5e0!3m2!1spt-BR!2sbr!4v1700000000000!5m2!1spt-BR!2sbr" 
+                        width="100%" 
+                        height="400" 
+                        style="border:0;" 
+                        allowfullscreen="" 
+                        loading="lazy" 
+                        referrerpolicy="no-referrer-when-downgrade"
+                        class="rounded-lg opacity-85 hover:opacity-100 transition-opacity">
+                    </iframe>
+                </div>
+                <p class="text-center mt-6 text-xs md:text-sm text-gray-400">Cobrimos toda a região: <strong>Ponta Negra</strong>, <strong>Tirol</strong>, <strong>Nova Parnamirim</strong>, <strong>Capim Macio</strong> e <strong>Centro</strong>.</p>
+            </div>
+        </section>
+    </main>
+
+    <footer class="bg-black text-white border-t-4 border-yellow-500 pb-20 md:pb-0">
+        <div class="container mx-auto px-6 py-12">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-8 text-center md:text-left">
+                <div>
+                    <img src="LOGO SEM FUNDO PRETO SITE.png" alt="Logo VR Soluções Elétricas" class="h-14 mx-auto md:mx-0 mb-4 opacity-95" loading="lazy">
+                    <p class="text-gray-400 text-sm">VR Soluções Elétricas - Sua escolha certa em engenharia e manutenção elétrica de alto padrão no RN.</p>
+                </div>
+                <div>
+                    <h4 class="font-bold text-base mb-3 text-yellow-500">Links Rápidos</h4>
+                    <ul class="text-sm space-y-1.5 text-gray-400">
+                        <li><a href="#servicos" class="hover:text-white haptic-btn">Nossos Serviços</a></li>
+                        <li><a href="#wallbox" class="hover:text-white haptic-btn">Instalação de Wallbox</a></li>
+                        <li><a href="#portfolio" class="hover:text-white haptic-btn">Portfólio Real</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="font-bold text-base mb-3 text-yellow-500">Áreas Atendidas</h4>
+                    <p class="text-xs text-zinc-400 font-bold mb-1.5">Atendimento Local - RN</p>
+                    <ul class="text-sm space-y-1.5 text-gray-400">
+                        <li><a href="index.html" class="hover:text-white haptic-btn">Eletricista em Natal</a></li>
+                        <li><a href="index.html" class="hover:text-white haptic-btn">Eletricista em Parnamirim</a></li>
+                        <li><a href="index.html" class="hover:text-white haptic-btn">Eletricista em Ponta Negra</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="font-bold text-base mb-3 text-yellow-500">Contato</h4>
+                    <p class="text-gray-400 text-sm leading-relaxed">
+                        <strong>WhatsApp:</strong> 
+                        <button onclick="navigator.clipboard.writeText('(84) 9124-2563'); alert('Número copiado!');" class="text-yellow-500 hover:text-white underline">
+                            (84) 9124-2563 (Copiar)
+                        </button><br>
+                        <strong>Instagram:</strong> <a href="https://instagram.com/vrsolucoeseletricas.01" target="_blank" class="haptic-btn text-yellow-500 hover:text-white">@vrsolucoeseletricas.01</a>
+                    </p>
+                </div>
+            </div>
+            <div class="border-t border-zinc-900 mt-8 pt-6 text-center text-gray-500 text-xs">
+                <p>© <span id="current-year"></span> VR Soluções Elétricas. Todos os direitos reservados.</p>
             </div>
         </div>
-    </section>
-
-    <!-- SEÇÃO WALLBOX -->
-    <section class="wallbox-section" id="wallbox">
-        <div class="wallbox-texto">
-            <h2 class="titulo-secao" style="text-align: left; margin-bottom: 20px;">Instalação de <span>Wallbox</span><br>(Carros Elétricos)</h2>
-            <p>Adquiriu ou pensa em adquirir um veículo elétrico? A instalação do carregador exige infraestrutura dedicada. Ligar na tomada comum de casa apresenta sérios riscos de incêndio e perda de garantia do veículo.</p>
-            <ul class="lista-wallbox">
-                <li><strong>Dimensionamento Correto:</strong> Avaliamos se o quadro geral suporta a carga do seu carregador.</li>
-                <li><strong>Proteção Exclusiva:</strong> Instalação de disjuntor e dispositivo DR adequados para proteger a bateria.</li>
-                <li><strong>Cabeamento Específico:</strong> Passagem de fios com a bitola certa para evitar superaquecimento.</li>
-            </ul>
-            <a href="https://wa.me/5584991242563" target="_blank" rel="noopener noreferrer" class="btn-header" style="margin-top: 15px;">Orçamento para Wallbox</a>
-        </div>
-        <div class="wallbox-imagem">
-            <img src="wallboximagem.jpg" alt="Instalação de Carregador Wallbox para Veículos Elétricos">
-        </div>
-    </section>
-
-    <!-- DIFERENCIAIS -->
-    <section class="diferenciais" id="diferenciais">
-        <h2 class="titulo-secao" style="margin-bottom: 40px;">Por que escolher a <span>VR Soluções</span>?</h2>
-        <div class="grid-diferenciais">
-            <div class="diferencial-item">
-                <h4>Profissional Técnico</h4>
-                <p>Serviço executado por profissional com formação técnica, garantindo segurança e respeito às normas (NR-10).</p>
-            </div>
-            <div class="diferencial-item">
-                <h4>Serviço com Garantia</h4>
-                <p>Trabalhamos com materiais de qualidade e oferecemos garantia em todas as nossas instalações e manutenções.</p>
-            </div>
-            <div class="diferencial-item">
-                <h4>Atendimento Pontual</h4>
-                <p>Sabemos que o seu tempo é valioso. Chegamos no horário marcado para resolver o seu problema sem atrasos.</p>
-            </div>
-            <div class="diferencial-item">
-                <h4>Facilidade no Pagamento</h4>
-                <p>Preço justo. Aceitamos pagamentos à vista via PIX, e também cartões de débito e crédito (aproximação).</p>
-            </div>
-        </div>
-    </section>
-
-    <!-- MAPA (LOCALIZAÇÃO) -->
-    <section class="localizacao" id="localizacao">
-        <h2 class="titulo-secao" style="margin-bottom: 40px;">Nossa <span>Localização</span></h2>
-        <div class="mapa-container">
-            <iframe 
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d126916.74074251752!2d-35.292668!3d-5.805397!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7b2ffeb07a67237%3A0x6b7fc45f2e698886!2sNatal%2C%20RN!5e0!3m2!1spt-BR!2sbr!4v1700000000000!5m2!1spt-BR!2sbr" 
-                height="450" 
-                style="border:0;" 
-                allowfullscreen="" 
-                loading="lazy" 
-                referrerpolicy="no-referrer-when-downgrade">
-            </iframe>
-        </div>
-    </section>
-
-    <!-- RODAPÉ -->
-    <footer id="contacto">
-        <img src="LOGO SEM FUNDO PRETO SITE.png" alt="VR Soluções Elétricas" class="footer-logo">
-        <p><strong>VR Soluções Elétricas</strong> - Atendendo Natal, Parnamirim e Região</p>
-        <p>WhatsApp: <a href="https://wa.me/5584991242563" target="_blank" rel="noopener noreferrer">(84) 99124-2563</a></p>
-        <p>Instagram: <a href="https://instagram.com/vrsolucoeseletricas.01" target="_blank" rel="noopener noreferrer">@vrsolucoeseletricas.01</a></p>
-        <p>Website: <a href="https://vrsolucoeseletricas.site">vrsolucoeseletricas.site</a></p>
-        <p style="margin-top: 30px; font-size: 0.8rem; color: #555;">&copy; 2026 Todos os direitos reservados.</p>
     </footer>
 
-    <!-- BOTÃO FLUTUANTE DO WHATSAPP -->
-    <a href="https://wa.me/5584991242563" class="whatsapp-float" target="_blank" rel="noopener noreferrer" aria-label="Fale conosco no WhatsApp">
-        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" viewBox="0 0 16 16">
+    <div id="social-proof-toast" class="fixed bottom-24 md:bottom-5 left-4 md:left-5 bg-zinc-900 border border-zinc-800 text-white p-3 rounded-xl shadow-2xl z-40 transform translate-y-32 opacity-0 transition-all duration-700 flex items-center gap-3">
+        <div class="bg-yellow-500/20 text-yellow-500 p-2 rounded-lg"><svg class="w-5 h-5 animate-pulse" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" aria-hidden="true"><path d="M13 10V3L4 14h7v7l9-11h-7z"></path></svg></div>
+        <div>
+            <p id="social-proof-text" class="text-xs font-medium text-gray-200">Carregando...</p>
+        </div>
+    </div>
+
+    <button id="backToTop" class="haptic-btn fixed bottom-24 right-4 md:right-5 bg-zinc-800 border border-zinc-700 hover:bg-yellow-500 text-white hover:text-black w-10 h-10 md:w-12 md:h-12 rounded-full flex items-center justify-center shadow-2xl z-40 opacity-0 pointer-events-none transition-all duration-300" aria-label="Voltar ao topo">
+        <svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M5 15l7-7 7 7"></path></svg>
+    </button>
+
+    <div class="fixed bottom-0 left-0 w-full z-50 md:hidden bg-green-500 shadow-[0_-10px_20px_rgba(0,0,0,0.4)] border-t border-green-400">
+        <a href="https://api.whatsapp.com/send?phone=558491242563&text=Olá!%20Acessei%20o%20site%20e%20gostaria%20de%20solicitar%20um%20atendimento." class="dynamic-wa haptic-btn flex justify-center items-center w-full py-4 text-white font-extrabold text-base tracking-wide uppercase gap-2" aria-label="Solicitar orçamento pelo WhatsApp">
+            <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 16 16" aria-hidden="true">
+                <path d="M13.601 2.326A7.85 7.85 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.9 7.9 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.9 7.9 0 0 0 13.6 2.326zM7.994 14.521a6.6 6.6 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.56 6.56 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592m3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.73.73 0 0 0-.529.247c-.182.198-.691.677-.691 1.654s.71 1.916.81 2.049c.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232"/>
+            </svg>
+            Chamar no WhatsApp
+        </a>
+    </div>
+
+    <a href="https://api.whatsapp.com/send?phone=558491242563&text=Olá!%20Gostaria%20de%20solicitar%20um%20atendimento." target="_blank" class="dynamic-wa haptic-btn hidden md:flex fixed bottom-5 right-5 bg-green-500 hover:bg-green-600 text-white w-16 h-16 rounded-full items-center justify-center pulse-btn z-50 transform transition-transform duration-300 hover:scale-110" aria-label="Solicitar orçamento pelo WhatsApp">
+        <svg class="w-8 h-8" fill="currentColor" viewBox="0 0 16 16" aria-hidden="true">
             <path d="M13.601 2.326A7.85 7.85 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.9 7.9 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.9 7.9 0 0 0 13.6 2.326zM7.994 14.521a6.6 6.6 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.56 6.56 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592m3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.73.73 0 0 0-.529.247c-.182.198-.691.677-.691 1.654s.71 1.916.81 2.049c.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232"/>
         </svg>
     </a>
 
+    <script>
+        // FEEDBACK TÁTIL (Vibração no Celular)
+        document.querySelectorAll('.haptic-btn, a[href^="https://api.whatsapp.com"]').forEach(btn => {
+            btn.addEventListener('click', () => {
+                if (navigator.vibrate) navigator.vibrate(50);
+            });
+        });
+
+        // Compartilhamento Nativo (Web Share API)
+        const shareBtn = document.getElementById('shareBtn');
+        if (shareBtn) {
+            shareBtn.addEventListener('click', async () => {
+                if (navigator.share) {
+                    try {
+                        await navigator.share({
+                            title: 'VR Soluções Elétricas',
+                            text: 'Pessoal, precisando de eletricista na região de Natal e Parnamirim, recomendo a VR Soluções:',
+                            url: window.location.href
+                        });
+                    } catch (err) {
+                        console.log('Compartilhamento cancelado', err);
+                    }
+                } else {
+                    alert('Copie o link do site no seu navegador e envie para os amigos!');
+                }
+            });
+        }
+
+        // Atualização de Dots nos Carrosséis
+        function updateCarouselDots(carouselId, dotsContainerId) {
+            const carousel = document.getElementById(carouselId);
+            const dotsContainer = document.getElementById(dotsContainerId);
+            if (!carousel || !dotsContainer) return;
+            
+            const dots = dotsContainer.children;
+            carousel.addEventListener('scroll', () => {
+                const scrollPercent = carousel.scrollLeft / (carousel.scrollWidth - carousel.clientWidth);
+                let index = Math.round(scrollPercent * (dots.length - 1));
+                
+                Array.from(dots).forEach((dot, i) => {
+                    if(i === index) {
+                        dot.classList.replace('bg-zinc-700', 'bg-yellow-500');
+                    } else {
+                        dot.classList.replace('bg-yellow-500', 'bg-zinc-700');
+                    }
+                });
+            });
+        }
+        updateCarouselDots('portfolio-carousel', 'portfolio-dots');
+        updateCarouselDots('avaliacoes-carousel', 'avaliacoes-dots');
+
+        // Barra de Progresso e Cabeçalho Inteligente
+        let lastScroll = 0;
+        window.addEventListener('scroll', () => {
+            const winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+            const height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+            
+            // Progresso
+            const progressBar = document.getElementById('scroll-progress');
+            if (progressBar) progressBar.style.width = (winScroll / height) * 100 + '%';
+
+            // Cabeçalho Inteligente (Auto Hide)
+            const currentScroll = window.pageYOffset;
+            const header = document.getElementById('sticky-header');
+            if (header) {
+                if (currentScroll > lastScroll && currentScroll > 100) header.classList.add('header-hidden');
+                else header.classList.remove('header-hidden');
+            }
+            lastScroll = currentScroll;
+        });
+
+        // Botão Voltar ao Topo
+        const backToTopBtn = document.getElementById("backToTop");
+        window.addEventListener("scroll", () => {
+            if (window.scrollY > 500) {
+                backToTopBtn.classList.remove("opacity-0", "pointer-events-none");
+                backToTopBtn.classList.add("opacity-100", "pointer-events-auto");
+            } else {
+                backToTopBtn.classList.remove("opacity-100", "pointer-events-auto");
+                backToTopBtn.classList.add("opacity-0", "pointer-events-none");
+            }
+        });
+        backToTopBtn.addEventListener("click", () => {
+            window.scrollTo({ top: 0, behavior: "smooth" });
+        });
+
+        // Saudação Dinâmica no WhatsApp
+        function updateWhatsAppLinks() {
+            const hour = new Date().getHours();
+            let greeting = "Olá";
+            if (hour >= 5 && hour < 12) greeting = "Bom dia";
+            else if (hour >= 12 && hour < 18) greeting = "Boa tarde";
+            else greeting = "Boa noite";
+
+            const waLinks = document.querySelectorAll('.dynamic-wa');
+            waLinks.forEach(link => {
+                const url = new URL(link.href);
+                let text = url.searchParams.get('text') || "";
+                text = text.replace(/^Olá!\s*/i, ""); 
+                url.searchParams.set('text', `${greeting}! ${text}`);
+                link.href = url.toString();
+            });
+        }
+        updateWhatsAppLinks();
+
+        // Carrossel de Serviços Mobile (Auto-scroll)
+        const servicosCarousel = document.getElementById('servicos-carousel');
+        if (servicosCarousel) {
+            setInterval(() => {
+                if (window.innerWidth < 768) {
+                    const maxScroll = servicosCarousel.scrollWidth - servicosCarousel.clientWidth;
+                    if (servicosCarousel.scrollLeft >= maxScroll - 10) {
+                        servicosCarousel.scrollTo({ left: 0, behavior: 'smooth' });
+                    } else {
+                        servicosCarousel.scrollTo({ left: servicosCarousel.scrollLeft + window.innerWidth * 0.82, behavior: 'smooth' });
+                    }
+                }
+            }, 3500);
+        }
+
+        // Prova Social Pop-up Dinâmico
+        const toast = document.getElementById('social-proof-toast');
+        const toastText = document.getElementById('social-proof-text');
+
+        const notifications = [
+            "⚡ Novo orçamento para Wallbox em Ponta Negra!",
+            "🔧 Atendimento urgente finalizado no Tirol.",
+            "⭐ Avaliação de 5 estrelas recebida em Nova Parnamirim!",
+            "⚡ Instalação de padrão Cosern homologada."
+        ];
+
+        let currentIndex = 0;
+
+        function showNotification() {
+            if (!toast) return;
+            toastText.innerHTML = notifications[currentIndex];
+            toast.classList.remove('translate-y-32', 'opacity-0');
+
+            setTimeout(() => {
+                toast.classList.add('translate-y-32', 'opacity-0');
+                currentIndex = (currentIndex + 1) % notifications.length;
+            }, 8000); // fica visível por 8 segundos
+        }
+
+        // primeira aparição após 8 segundos e repete a cada 35 segundos
+        setTimeout(() => {
+            showNotification();
+            setInterval(showNotification, 35000); 
+        }, 8000);
+
+        document.getElementById('current-year').textContent = new Date().getFullYear();
+    </script>
 </body>
 </html>
